@@ -26,7 +26,7 @@ const lato = Lato({            // Add Lato font setup here
 });
 
 export const metadata: Metadata = {
-  title: "Masala Dosa Restaurant",
+  title: "Masala Dosa - Vegetarian Restaurant",
   description: "Authentic South Indian Cuisine",
 };
 
