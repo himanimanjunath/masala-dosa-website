@@ -26,7 +26,7 @@ const lato = Lato({            // Add Lato font setup here
 });
 
 export const metadata: Metadata = {
-  title: "Masala Dosa - Vegetarian Restaurant",
+  title: "MASALA DOSA - Vegetarian Restaurant",
   description: "Authentic South Indian Cuisine",
 };
 
@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lato.variable} ${merriweather.variable} antialiased`}
       >
