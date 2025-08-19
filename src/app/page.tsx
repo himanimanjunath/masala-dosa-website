@@ -121,7 +121,7 @@ export default function Home() {
               {[
                 { src: "/idli.jpg", alt: "Fresh Idli" },
                 { src: "/dosapromo.jpg", alt: "Crispy Dosa" },
-                { src: "/chai.png", alt: "Medu Vada" },
+                { src: "/MeduV.png", alt: "Medu Vada" },
                 { src: "/chai.png", alt: "Cutting Chai" },
               ].map((img, index) => (
                 <div
@@ -206,7 +206,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-center justify-between pt-4 border-t border-border">
-                  <div className="text-4xl font-bold text-yellow-600 text-accent">$8.99</div>
+                  <div className="text-4xl font-bold text-yellow-600 text-accent">$9.99</div>
                   <Badge className="bg-accent/10 text-white border-accent/20 bg-yellow-600 text-sm font-semibold">
                     DINE-IN ONLY
                   </Badge>

@@ -50,7 +50,7 @@ export function Footer() {
               </div>
               <div className="flex justify-between text-sm">
                 <span>Friday, Saturday, Sunday</span>
-                <span className="text-primary-foreground/80">9:00 AM - 10:00 PM</span>
+                <span className="text-right text-primary-foreground/80">9:00 AM - 10:00 PM</span>
               </div>
               <div className="flex justify-between text-sm">
                 <span>Tuesday</span>

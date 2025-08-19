@@ -43,7 +43,7 @@ export function LocationContact() {
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span className="text-foreground">Monday, Wednesday, Thursday</span>
-                    <span className="text-muted-foreground">9:00 AM - 2:00 PM, 5:30 PM - 9:00 PM</span>
+                    <span className="text-muted-foreground text-right">9:00 AM - 2:00 PM, 5:30 PM - 9:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-foreground">Friday, Saturday, Sunday</span>
@@ -74,7 +74,7 @@ export function LocationContact() {
                   <p className="text-muted-foreground">(669) 284-9129</p>
                 </div>
                 <div className="flex gap-4">
-                  <Button className="flex-1">
+                  <Button className="flex-1 bg-orange-400 hover:bg-orange-500">
                     <Instagram className="w-5 h-5 text-gray-50" />
                   <Link href="https://www.instagram.com/masaladosa.mp/profilecard/?igsh=MzRlODBiNWFlZA%3D%3D" target="_blank">
                     <span className="text-gray-50">Follow us on Instagram!</span>
