@@ -18,7 +18,7 @@ const menuCategories = [
       { name: "Cheese Dosa", price: "$10.99", description: "A crispy, golden dosa filled with melted cheese." },
       { name: "Plain Paneer Dosa", price: "$10.99", description: "Crispy dosa filled with a mixture of grated paneer." },
       { name: "Onion Capsicum Masala Dosa", price: "$10.99", description: "Crispy dosa with onions, capsicum, and potato masala." },
-      { name: "Masala Dosa (Masala Separate)", price: "$9.99", description: "" },
+      { name: "Masala Dosa (Masala Separate)", price: "$9.99", description: "Classic potato and peas masala served separately with a crisp dosa." },
       { name: "Ghee Masala Dosa", price: "$10.99", description: "Masala dosa cooked in ghee." },
       { name: "Onion Masala Dosa", price: "$10.99", description: "Crispy dosa with onions and potato masala." },
     ],
@@ -58,7 +58,7 @@ const menuCategories = [
   {
     title: "Pongal",
     items: [
-      { name: "Pongal 8oz", price: "$5.99", description: "A comforting dish made from rice and lentils, seasoned with black pepper, cumin, ghee, and garnished with cashews and curry leaves. Served with sambar and chutneys." },
+      { name: "Pongal (8oz)", price: "$5.99", description: "A comforting dish made from rice and lentils, seasoned with black pepper, cumin, ghee, and garnished with cashews and curry leaves. Served with sambar and chutneys." },
       { name: "Pongal (8oz) + Medu Vada (1)", price: "$6.99", description: "Pongal accompanied by a crispy vada. Served with sambar and chutneys." },
       { name: "Pongal (8oz) + Vada (1) + Idli (1)", price: "$7.99", description: "Pongal accompanied by a crispy medu vada and a soft idli. Served with sambar and chutneys." },
     ],
@@ -75,16 +75,16 @@ const menuCategories = [
     ],
   },
   {
-    title: "Snacks", //finish this
+    title: "Snacks",
     items: [
       { name: "Medu Vada (3)", price: "$5.99", description: "Crispy, deep-fried lentil doughnuts made from urad dal with a golden brown exterior and a soft, fluffy interior." },
       { name: "Sambar Vada (3)", price: "$7.99", description: "Crispy medu vadas soaked in sambar." },
-      { name: "Curd Vada Salted (3)", price: "$7.99", description: "Crispy medu vadas soaked in creamy, spiced yogurt" },
-      { name: "Masala Vada (3)", price: "$5.99", description: "Crispy, savory fritter made from a spiced mixture of chana dal, onions, green chilies" },
-      { name: "Onion Samosa (3)", price: "$2.99", description: "Crisp, golden-brown pastry filled with a flavorful mixture of onions" },
-      { name: "Curd Vada Sweet (3)", price: "$7.99", description: "Crisp, golden-brown pastry filled with a flavorful mixture of onions" },
-      { name: "Extra Medu Vada (1)", price: "$1.99", description: "Crisp, golden-brown pastry filled with a flavorful mixture of onions" },
-      { name: "Extra Masala Vada (1)", price: "$1.99", description: "Crisp, golden-brown pastry filled with a flavorful mixture of onions" },
+      { name: "Curd Vada Salted (3)", price: "$7.99", description: "Three crispy lentil fritters soaked in creamy lightly salted yogurt and topped with coriander leaves, grated carrot and boondi." },
+      { name: "Masala Vada (3)", price: "$5.99", description: "Crispy lentil fritters made from a blend of split yellow lentils, seasoned with spices and fresh herbs." },
+      { name: "Onion Samosa (3)", price: "$2.99", description: "Crispy small samosas filled with a savory mixture of spiced onions." },
+      { name: "Curd Vada Sweet (3)", price: "$7.99", description: "Three crispy lentil fritters soaked in creamy lightly sweetened yogurt and topped with coriander leaves, grated carrot and boondi." },
+      { name: "Extra Medu Vada (1)", price: "$1.99", description: "" },
+      { name: "Extra Masala Vada (1)", price: "$1.99", description: "" },
     ],
   },
   {

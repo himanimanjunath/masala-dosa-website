@@ -38,16 +38,23 @@ export default function Home() {
 
       {/*Hero bg-gradient-to-r from-orange-50 to-green-50*/}
       <section>
-        <div className="relative bg-gray-50 py-30">
-          <div className="max-w-[87rem] mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative bg-gray-50 py-30">
+        <div className="max-w-[87rem] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center lg:text-left">
+
+            {/* Text Section */}
             <div>
-              <Badge className="mb-4 bg-green-100 text-green-800 font-semibold text-md mb-7">
+              <Badge className="mb-4 bg-green-100 text-green-800 font-semibold text-md mb-7 mx-auto lg:mx-0">
                 <Leaf className="w-4 h-4 mr-1" />
-                100% Vegetarian</Badge>
-              <h1 className="font-serif text-4xl lg:text-6xl font-bold text-gray-900 mb-6">Authentic South Indian Cuisine</h1>
-              <p className="text-xl text-gray-600 mb-8 text-md leading-relaxed">Experience the rich flavors and joy of traditional South Indian dishes, made with love and fresh ingredients.</p>
-              <div className="flex flex-col sm:flex-row gap-4">
+                100% Vegetarian
+              </Badge>
+              <h1 className="font-serif text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+                Authentic South Indian Cuisine
+              </h1>
+              <p className="text-xl text-gray-600 mb-8 text-md leading-relaxed">
+                Experience the rich flavors and joy of traditional South Indian dishes, made with love and fresh ingredients.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button size="lg" className="h-11 px-8 bg-orange-400 hover:bg-orange-500 font-semibold text-md" asChild>
                   <Link href="https://www.clover.com/online-ordering/masala-dosa-milpitas" target="_blank">
                     Order Now
@@ -58,13 +65,19 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative pl-10">
-              <img src="dosa.jpeg" width={600} height={500} className="rounded-lg shadow-2xl"></img>
-              
+
+            {/* Image Section */}
+            <div className="relative pl-0 lg:pl-10 flex justify-center lg:justify-end">
+              <img
+                src="dosa.jpeg"
+                width={600}
+                height={500}
+                className="rounded-lg shadow-2xl"
+              />
             </div>
           </div>
-          </div>
         </div>
+      </div>
       </section>
 
       {/* Happy Hour Special */}
@@ -143,7 +156,6 @@ export default function Home() {
       </section>
 
       {/*Benne Dosa Happy Hour Promo*/}
-
       <section className="py-21 bg-gradient-to-r from-yellow-50 to-orange-50">
         <div className="max-w-[87rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -151,75 +163,67 @@ export default function Home() {
               <span className="text-yellow-600">Benne Dosa</span> Happy Hour
             </h2>
             <p className="text-2xl text-gray-600">Monday - Friday | 9:00AM - 10:00AM</p>
-            
-           <div className="mt-17 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative w-full h-full">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl w-full h-80 lg:h-[495px]">
-                <Image
-                  src="/benne.png"
-                  alt="benne dosa"
-                  fill
-                  className="object-cover object-center"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                <div className="absolute bottom-6 left-6 text-white">
-                  <h3 className="font-serif text-2xl font-bold mb-2">Authentic Benne Dosa</h3>
+
+            <div className="mt-17 grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+              {/* Image Section */}
+              <div className="relative w-full h-full">
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl w-full h-full min-h-[400px]">
+                  <Image
+                    src="/benne.png"
+                    alt="benne dosa"
+                    fill
+                    className="object-cover object-center"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                  <div className="absolute bottom-6 left-6 text-white">
+                    <h3 className="font-serif text-2xl font-bold mb-2">Authentic Benne Dosa</h3>
+                  </div>
                 </div>
               </div>
-            </div>
 
-
-            <Card className="bg-card border-2 border-yellow-600 shadow-xl">
-              {/* 
-              <CardHeader className="pb-4">
-                <CardTitle className="font-serif text-3xl text-left text-card-foreground">Benne Dosa Special</CardTitle>
-                <CardDescription className="text-lg text-muted-foreground">
-                  Karnataka's famous buttery dosa made with pure ghee
-                </CardDescription>
-              </CardHeader>
-
-              */}
-              <CardContent className="space-y-6">
-                <div className="space-y-4">
-                  {[
-                    { item: "1 Benne Dosa", desc: "Crispy dosa with butter & ghee" },
-                    { item: "1 Idli", desc: "Steamed rice cake" },
-                    { item: "1 Medu Vada", desc: "Lentil donut" },
-                    { item: "1 Cutting Chai", desc: "Spiced tea" },
-                  ].map((food, index) => (
-                    <div key={index} className="flex items-center space-x-3">
-                      <div className="w-2 h-2 bg-yellow-600 rounded-full flex-shrink-0" />
-                      <div>
-                        <span className="text-lg text-gray-800 font-semibold text-card-foreground">{food.item}</span>
-                        <span className="text-muted-foreground ml-2">({food.desc})</span>
+              {/* Text Card */}
+              <Card className="bg-card border-2 border-yellow-600 shadow-xl h-full">
+                <CardContent className="space-y-6 h-full flex flex-col justify-between">
+                  <div className="space-y-4">
+                    {[
+                      { item: "1 Benne Dosa", desc: "Crispy dosa with butter & ghee" },
+                      { item: "1 Idli", desc: "Steamed rice cake" },
+                      { item: "1 Medu Vada", desc: "Lentil donut" },
+                      { item: "1 Cutting Chai", desc: "Spiced tea" },
+                    ].map((food, index) => (
+                      <div key={index} className="flex items-center space-x-3">
+                        <div className="w-2 h-2 bg-yellow-600 rounded-full flex-shrink-0" />
+                        <div>
+                          <span className="text-lg text-gray-800 font-semibold text-card-foreground">{food.item}</span>
+                          <span className="text-muted-foreground ml-2">({food.desc})</span>
+                        </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
 
-                <div className="bg-yellow-50 rounded-lg p-4 border border-accent/20">
-                  <h4 className="font-bold text-lg text-yellow-600 mb-2 ">What makes it special?</h4>
-                  <p className="text-sm text-black leading-relaxed">
-                    Our Benne Dosa is prepared in the traditional Karnataka style with pure ghee and
-                    butter, creating a golden, crispy exterior with a rich flavor that melts in your mouth.
+                  <div className="bg-yellow-50 rounded-lg p-4 border border-accent/20">
+                    <h4 className="font-bold text-lg text-yellow-600 mb-2">What makes it special?</h4>
+                    <p className="text-sm text-black leading-relaxed">
+                      Our Benne Dosa is prepared in the traditional Karnataka style with pure ghee and butter,
+                      creating a golden, crispy exterior with a rich flavor that melts in your mouth.
+                    </p>
+                  </div>
+
+                  <div className="flex items-center justify-between pt-4 border-t border-border">
+                    <div className="text-4xl font-bold text-yellow-600 text-accent">$9.99</div>
+                    <Badge className="bg-yellow-600 text-sm font-semibold">
+                      DINE-IN ONLY
+                    </Badge>
+                  </div>
+
+                  <p className="text-xs text-muted-foreground text-left leading-relaxed">
+                    *Limited time offer. Prices subject to change. Cannot be combined with other offers.
+                    Images for representative purposes only.
                   </p>
-                </div>
-
-                <div className="flex items-center justify-between pt-4 border-t border-border">
-                  <div className="text-4xl font-bold text-yellow-600 text-accent">$9.99</div>
-                  <Badge className="bg-accent/10 text-white border-accent/20 bg-yellow-600 text-sm font-semibold">
-                    DINE-IN ONLY
-                  </Badge>
-                </div>
-
-                <p className="text-xs text-muted-foreground text-left leading-relaxed">
-                  *Limited time offer. Prices subject to change. Cannot be combined with other offers. Images for
-                  representative purposes only.
-                </p>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </div>
           </div>
-        </div>
         </div>
       </section>
 
@@ -227,8 +231,6 @@ export default function Home() {
         <MenuSection />
       </section>
       
-
-
       {/* About Section */}
 
       <section>
