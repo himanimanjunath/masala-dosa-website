@@ -1,8 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Dark mode variant */
 @custom-variant dark (&:is(.dark *));
 
+/* THEME VARIABLES */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -43,6 +45,22 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+/* RESET + CONSISTENCY FIX */
+html {
+  font-size: 16px; /* lock root font-size so rem units are stable everywhere */
+  -webkit-text-size-adjust: 100%; /* prevent Safari zoom quirks */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* THEME DEFAULTS */
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -112,6 +130,7 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+/* BASE STYLES */
 @layer base {
   * {
     @apply border-border outline-ring/50;
