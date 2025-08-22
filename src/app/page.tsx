@@ -39,7 +39,7 @@ export default function Home() {
       {/*Hero bg-gradient-to-r from-orange-50 to-green-50*/}
       <section>
       <div className="relative bg-gray-50 py-30">
-        <div className="max-w-[87rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[50rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center lg:text-left">
 
             {/* Text Section */}
