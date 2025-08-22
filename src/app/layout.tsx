@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Lato, Merriweather} from "next/font/google";
 import "./globals.css";
 
@@ -28,6 +28,11 @@ const lato = Lato({            // Add Lato font setup here
 export const metadata: Metadata = {
   title: "MASALA DOSA - Vegetarian Restaurant",
   description: "Authentic South Indian Cuisine",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
