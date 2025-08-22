@@ -4,10 +4,6 @@
 /* Dark mode variant */
 @custom-variant dark (&:is(.dark *));
 
-.max-container {
-  @apply max-w-[87rem] mx-auto px-4 sm:px-6 lg:px-8;
-}
-
 /* THEME VARIABLES */
 @theme inline {
   --color-background: var(--background);
