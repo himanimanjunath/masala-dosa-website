@@ -62,7 +62,7 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © {currentYear} MASALA DOSA. All rights reserved. | Authentic South Indian Restaurant in Milpitas, CA
+            © {currentYear} MASALA DOSA. All rights reserved. 
           </p>
         </div>
       </div>
