@@ -2,11 +2,11 @@
 
 my favorite Indian restaurant didn’t have an interactive website to showcase their yummy lineup and services so i built one! made with React and Next.js.
 
-goal was to make the restaurant's information (deals, menu items) easier to browse so more customers are compelled to visit, order online, and enjoy good food.
+goal was to make the restaurant's information (special deals, menu items, contact information) easier to browse so more customers are compelled to visit, order online, and enjoy good food.
 
-check out the revamped website at: https://masala-dosa-website.vercel.app/
+check out the revamped website at: https://masala-dosa-website.vercel.app/ 
 
-look through the restaurant’s special deals, full menu, and contact information. and please support the restaurant by visiting or ordering online! 
+and please support the restaurant by visiting them or ordering online! 
 
 my favorite menu items / recommendations: 
 - benne podi dosa
