@@ -18,7 +18,7 @@ export function LocationContact() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Location Info */}
           <div className="space-y-6">
-            <Card className="shadow-sm">
+            <Card className="shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <MapPin className="w-5 h-5" />
@@ -32,7 +32,7 @@ export function LocationContact() {
               </CardContent>
             </Card>
 
-            <Card className="shadow-sm">
+            <Card className="shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <Clock className="w-5 h-5" />
@@ -57,7 +57,7 @@ export function LocationContact() {
               </CardContent>
             </Card>
 
-            <Card className="shadow-sm" id="contact">
+            <Card className="shadow-md" id="contact">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <Phone className="w-5 h-5" />
