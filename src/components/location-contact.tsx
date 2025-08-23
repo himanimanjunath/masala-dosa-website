@@ -18,7 +18,7 @@ export function LocationContact() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Location Info */}
           <div className="space-y-6">
-            <Card className="shadow-lg">
+            <Card className="shadow-sm">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <MapPin className="w-5 h-5" />
@@ -32,7 +32,7 @@ export function LocationContact() {
               </CardContent>
             </Card>
 
-            <Card className="shadow-lg">
+            <Card className="shadow-sm">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <Clock className="w-5 h-5" />
@@ -53,15 +53,11 @@ export function LocationContact() {
                     <span className="text-foreground">Tuesday</span>
                     <span className="text-muted-foreground">Closed</span>
                   </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-accent font-medium">Happy Hour</span>
-                    <span className="text-accent">Mon-Fri 5:30-8:30 PM</span>
-                  </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="shadow-lg" id="contact">
+            <Card className="shadow-sm" id="contact">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-primary">
                   <Phone className="w-5 h-5" />
@@ -77,7 +73,7 @@ export function LocationContact() {
                   <Button className="flex-1 bg-orange-400 hover:bg-orange-500">
                     <Instagram className="w-5 h-5 text-gray-50" />
                   <Link href="https://www.instagram.com/masaladosa.mp/profilecard/?igsh=MzRlODBiNWFlZA%3D%3D" target="_blank">
-                    <span className="text-gray-50">Follow us on Instagram!</span>
+                    <span className="text-gray-50">Follow us on Instagram</span>
                   </Link>
                   </Button>
                   <Button variant="outline" className="flex-1 bg-transparent">
