@@ -21,9 +21,9 @@ export default function Home() {
               <img src="logo.png" width={80} height={0} alt='logo'></img>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <Link className="text-gray-600 hover:text-orange-400 font-medium text-lg" href="#specials">Specials</Link>
-              <Link className="text-gray-600 hover:text-orange-400  font-medium text-lg" href="#menu">Menu</Link>
-              <Link className="text-gray-600 hover:text-orange-400 font-medium text-lg" href="#contact">Contact</Link>
+              <Link className="text-gray-600 hover:text-orange-400 font-medium text-md" href="#specials">Specials</Link>
+              <Link className="text-gray-600 hover:text-orange-400  font-medium text-md" href="#menu">Menu</Link>
+              <Link className="text-gray-600 hover:text-orange-400 font-medium text-md" href="#contact">Contact</Link>
             </nav>
             <div className="flex space-x-4">
               <Button asChild className="bg-orange-400 hover:bg-orange-500 h-11 px-8 font-semibold text-md">
