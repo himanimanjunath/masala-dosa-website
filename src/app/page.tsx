@@ -82,7 +82,7 @@ export default function Home() {
 
       {/* Happy Hour Special */}
       <section id="specials" className="py-21 bg-gray-900 text-white">
-        <div className="max-w-[80rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[77rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-serif text-[45px] font-bold text-foreground mb-1">
              <span className="text-orange-400">Happy Hour</span> <span className="text-gray-300">Special</span>

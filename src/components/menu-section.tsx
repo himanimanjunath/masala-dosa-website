@@ -136,7 +136,7 @@ const menuCategories = [
 export function MenuSection() {
   return (
     <section id="menu" className="py-20 bg-gray-50">
-      <div className="max-w-[80rem] container mx-auto px-4">
+      <div className="max-w-[77rem] container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-serif font-bold text-4xl text-foreground mb-4">Our Menu</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
