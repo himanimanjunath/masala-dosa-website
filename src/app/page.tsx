@@ -15,7 +15,7 @@ export default function Home() {
       {/*Header*/}
 
       <header className="bg-gray-50 shadow-sm">
-        <div className="max-w-[70rem] pt-3 mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[80rem] pt-3 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-2">
               <img src="logo.png" width={80} height={0} alt='logo'></img>
@@ -39,7 +39,7 @@ export default function Home() {
       {/*Hero bg-gradient-to-r from-orange-50 to-green-50*/}
       <section>
       <div className="relative bg-gray-50 py-30">
-        <div className="max-w-[70rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[80rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center lg:text-left">
 
             {/* Text Section */}
@@ -82,7 +82,7 @@ export default function Home() {
 
       {/* Happy Hour Special */}
       <section id="specials" className="py-21 bg-gray-900 text-white">
-        <div className="max-w-[70rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[80rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-serif text-[45px] font-bold text-foreground mb-1">
              <span className="text-orange-400">Happy Hour</span> <span className="text-gray-300">Special</span>
@@ -157,7 +157,7 @@ export default function Home() {
 
       {/*Benne Dosa Happy Hour Promo*/}
       <section className="py-21 bg-gradient-to-r from-yellow-50 to-orange-50">
-        <div className="max-w-[87rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[80rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-serif text-[45px] font-bold text-gray-900 mb-1">
               <span className="text-yellow-600">Benne Dosa</span> Happy Hour
