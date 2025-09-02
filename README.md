@@ -13,7 +13,7 @@ Masala Dosa has been my family’s favorite restaurant this summer, and I notice
 
 ## Process
 
-**Design Approach**
+**Design Approach:**
 * Researched different fast food and Indian restaurant websites to identify common practices and areas for improvement.
 * Prototyped ideas in Figma to explore different layouts and features.
 * Prioritized clean navigation, easy menu access, and highlighting special offers.
@@ -21,7 +21,7 @@ Masala Dosa has been my family’s favorite restaurant this summer, and I notice
 
 **Tech Stack:** Built with React and Next.js, deployed on Vercel.
 
-**Next Steps**
+**Next Steps:**
 * Finalizing the website design and features in collaboration with the restaurant.
 * Integrating the Clover API, which will allow staff updates to the menu to automatically sync in real time on the website.
 * Future plans: online ordering and customer reviews.
