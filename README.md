@@ -32,7 +32,7 @@ Check out the revamped website at: https://masala-dosa-website.vercel.app/
 Original website: https://www.masaladosa.us/ 
 
 ## Support!
-Please check out the new site, and if you’re in the area, please support Masala Dosa by visiting in person or ordering online! :)
+Please check out the new site, and if you’re in the area, please support Masala Dosa by visiting in person or ordering online! 
 
 ### my favorite menu items / recommendations: 
 - benne podi dosa
